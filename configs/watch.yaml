@@ -1,0 +1,5 @@
+watchConfig:
+  endpoints: "localhost:2379"
+  dialTimeout: 5s
+  watchKey: "app.properties"
+  postAddress: "http://127.0.0.1:8888/calculate"
